@@ -1,0 +1,8 @@
+version: "2"
+services:        
+    cache:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - .:/usr/src/php-redis-simple-cache
